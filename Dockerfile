@@ -3,4 +3,4 @@ ADD https://raw.githubusercontent.com/mickeydarrenlau/cuberite-hop.io/main/main.
 RUN apt update && apt install -y gcc g++ git make cmake
 ADD https://download.cuberite.org/linux-x86_64/Cuberite.tar.gz c.tar.gz
 RUN tar -xvf c.tar.gz
-CMD chmod +x Cuberite && ./Cuberite -d && bash main.sh
+CMD chmod +x Cuberite && ./Cuberite -d && cat webadmin.ini &&  bash main.sh
