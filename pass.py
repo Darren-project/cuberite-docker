@@ -5,6 +5,10 @@ i3 = random.randint(1,909)
 
 i = str(i1) + str(i2) + str(i3)
 
+j = "[User:admin] \n Password=" + i
+print(j)
+
+
 f = open("webadmin.ini", "w")
-f.write("[User:admin] \nPassword=" + i)
+f.write(j)
 f.close()
