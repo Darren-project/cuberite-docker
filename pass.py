@@ -6,7 +6,7 @@ i3 = random.randint(1,909)
 
 i = str(i1) + str(i2) + str(i3)
 
-j = "[User:admin] \n Password=" + i
+j = "[User:admin] \nPassword=" + i
 print(j)
 
 
